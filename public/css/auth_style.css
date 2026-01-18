@@ -1,0 +1,40 @@
+body.auth-page {
+    background-color: #e74c3c; /* Contoh: Merah Terang (Sesuaikan jika Anda mau Oranye Gelap) */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Biarkan container transparan */
+
+/* Mengubah Input Field */
+.form-control.pill-input {
+    border-radius: 50px !important; 
+    background-color: rgba(255, 255, 255, 0.15); /* Lebih cerah agar terlihat di latar belakang merah */
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    color: white;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+
+.form-control.pill-input::placeholder {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Mengubah Tombol Login (Warna Kontras/Putih) */
+.btn.pill-btn {
+    border-radius: 50px !important;
+    padding: 10px 20px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px;
+}
+/* Tombol Utama (misalnya Login/Register) */
+.btn.pill-btn.btn-primary { 
+    background-color: white !important;
+    color: #e74c3c !important; /* Warna teks kembali ke merah mentai */
+    border: none;
+}

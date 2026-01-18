@@ -1,0 +1,98 @@
+/* Pengaturan Dasar */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Utama */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Header - Mengikuti tema Merah Go Mentai */
+h1 {
+    color: white;
+    background-color: #e5534b; /* Warna merah salmon sesuai gambar */
+    padding: 30px;
+    border-radius: 8px 8px 0 0;
+    margin: -20px -20px 20px -20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Box Detail Pembayaran */
+.payment-info {
+    border: 2px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.bank-details b {
+    color: #e5534b;
+}
+
+/* Total Bayar - Mengikuti tema Grand Total */
+.total-pay {
+    font-size: 28px;
+    font-weight: bold;
+    color: #e5534b;
+    text-align: right;
+    border-top: 2px solid #eee;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+/* Judul Langkah (1. Upload...) */
+h2 {
+    color: #333;
+    font-size: 20px;
+    border-left: 5px solid #e5534b;
+    padding-left: 10px;
+    margin: 25px 0 15px 0;
+}
+
+/* Button - Mengikuti tema Hijau Go Mentai */
+.btn-submit {
+    background-color: #248a56; /* Warna hijau tombol Lanjutkan */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #1b6d44;
+}
+
+/* Input File */
+.divider {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 30px 0;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.grand-total {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #e5534b;
+    margin-top: 10px;
+}
